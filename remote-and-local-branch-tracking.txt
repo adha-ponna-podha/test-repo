@@ -1,0 +1,7 @@
+when cloning, git automatically generates a remote tracking branch itself (origin/main)
+but other remote branches does not get its remote tracking branch unless you switch into that particular branch
+
+to set a remote tracking branch for a local branch you have create
+```bash
+git push -u origin my-branch
+```
